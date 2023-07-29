@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="homepage">
-        <img className="logo" src="/woodwork.png" alt="" />
+        <img className="logo" src="/WoodcraftSite/woodwork.png" alt="" />
       </div>
     </>
   );

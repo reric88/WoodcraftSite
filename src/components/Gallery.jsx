@@ -8,7 +8,7 @@ export default function Gallery({ array, size }) {
     <>
       <div className="gallery-page">
         {array.map((link, index) => (
-          <img key={index} src={link} className={`gallery-img ${size}-img`} alt="" />
+          <img key={index} src={`/WoodcraftSite${link}`} className={`gallery-img ${size}-img`} alt="" />
         ))}
       </div>
     </>

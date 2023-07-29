@@ -8,7 +8,7 @@ export default function About() {
         <div className="top-div div-1">
           <div className="sub-div">
             <img
-              src="/dominik-scythe-unsplash.jpg"
+              src="/WoodcraftSite/dominik-scythe-unsplash.jpg"
               className="about-img"
               alt=""
             />
@@ -26,7 +26,7 @@ export default function About() {
         <div className="top-div div-2">
           <div className="sub-div">
             <img
-              src="/andrea-lambrecht-unsplash.jpg"
+              src="/WoodcraftSite/andrea-lambrecht-unsplash.jpg"
               className="about-img"
               alt=""
             />
@@ -42,7 +42,7 @@ export default function About() {
         </div>
         <div className="top-div div-3">
           <div className="sub-div">
-            <img src="/jan-kahanek-unsplash.jpg" className="about-img" alt="" />
+            <img src="/WoodcraftSite/jan-kahanek-unsplash.jpg" className="about-img" alt="" />
           </div>
           <div className="sub-div desc-div">
             <h2>Photographer:</h2>
