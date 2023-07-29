@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("/ivana-cajina-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.credit-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.credit-div ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.credit-div li {
+  line-height: 1.5;
+}

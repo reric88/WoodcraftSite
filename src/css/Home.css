@@ -1,0 +1,29 @@
+.homepage {
+  width: 100%;
+  height: calc(100% - 80px);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+@media (orientation: portrait) {
+  img {
+    margin-top: 15%;
+  }
+}
+
+@media (orientation: landscape) {
+  img {
+    margin-top: 5%;
+  }
+}

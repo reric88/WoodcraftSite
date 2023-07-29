@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap");
+
+* {
+  font-family: "Ubuntu";
+}
+
+a {
+  color: #eefd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: #ccc;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.menu-fade {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.nav-menu-ul {
+  position: sticky;
+  height: 80vh;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  pointer-events: none;
+}
+
+.nav-menu-ul li {
+  font-size: 8vh;
+  font-weight: bold;
+  color: #000;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.social-media {
+  width: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  font-size: 8vh;
+}
+
+.slide-in-a {
+  animation: slideInAnimation 500ms ease;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-b {
+  animation: slideInAnimation 500ms 100ms ease;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-c {
+  animation: slideInAnimation 500ms 200ms ease;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-d {
+  animation: slideInAnimation 500ms 300ms ease;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-e {
+  animation: slideInAnimation 500ms 400ms ease;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-social {
+  animation: slideInAnimation 500ms 500ms ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-110%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-out {
+  animation: slideOutAnimation 500ms ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideOutAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-110%);
+  }
+}
+
+.fade-in {
+  animation: fadeInAnimation 500ms ease;
+  animation-fill-mode: forwards;
+  pointer-events: auto;
+
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    backdrop-filter: blur(0);
+    filter: grayscale(0);
+    -webkit-backdrop-filter: blur(0);
+    -webkit-filter: grayscale(0);
+    background-color: transparent;
+  }
+  100% {
+    backdrop-filter: blur(10px);
+    filter: grayscale(1);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-filter: grayscale(1);
+    background-color: #0002;
+  }
+}
+
+.fade-out {
+  animation: fadeOutAnimation 500ms ease;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    backdrop-filter: blur(10px);
+    filter: grayscale(1);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-filter: grayscale(1);
+    background-color: #0002;
+  }
+  100% {
+    backdrop-filter: blur(0);
+    filter: grayscale(0);
+    -webkit-backdrop-filter: blur(0);
+    -webkit-filter: grayscale(0);
+    background-color: transparent;
+  }
+}
+
+li h6 {
+  font-size: 16px;
+}

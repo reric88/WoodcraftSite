@@ -1,0 +1,38 @@
+.contact-page {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.google-map {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.address-div {
+  margin: 20px;
+}
+
+.phone-div {
+  margin: 20px;
+}
+
+.email-div {
+  margin: 20px;
+}
+
+.contact-info {
+  background-color: #dfd3;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact-info address,
+.email-div a,
+.phone-div a {
+  margin-left: 20px;
+}
